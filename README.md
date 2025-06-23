@@ -32,7 +32,7 @@ This project uses **Python**, **Flask**, and **PyLucene** to support efficient i
 - **Ivan Li**  
   Implemented fuzzy boosting ranking, HTML support for ranking method toggle, back-end logic updates
 
-- **Kemuel Garcia Perez**  
+- **sahix-x**  
   Reddit data crawling, server compatibility setup, foundational indexing architecture, ranking algorithm integration
 
 ---
