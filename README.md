@@ -20,16 +20,16 @@ This project uses Python, Flask, and PyLucene to support efficient indexing and 
 
 ## Contributors
 
-- **Aaryan Kumar**  
+- **Aaryan**  
   Search/display feature development, PyLucene integration, Flask front end, report writing, team coordination
 
-- **Cruz Lopez**  
+- **Cruz**  
   Flask front-end design (HTML/CSS), search bar and results display integration, server testing
 
-- **Franklyn Lu**  
+- **Franklyn**  
   UI-backend integration, indexing/debugging for Reddit and HTML, report organization and technical writing
 
-- **Ivan Li**  
+- **Ivan**  
   Implemented fuzzy boosting ranking, HTML support for ranking method toggle, back-end logic updates
 
 - **sahix-x**  
