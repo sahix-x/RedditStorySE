@@ -1,0 +1,40 @@
+# Reddit Short Story Search Engine
+
+A  web-based search engine that indexes and retrieves Reddit posts (JSON or HTML) from story-focused subreddits.
+
+This project uses **Python**, **Flask**, and **PyLucene** to support efficient indexing and searching, featuring relevance ranking with BM25, fuzzy matching, and time-based boosting to prioritize newer content.
+
+> For details, implementation strategies, and system architecture, please refer to the **report PDF**.
+
+---
+
+## Tools Used
+
+- Python 3
+- PyLucene
+- Flask
+- HTML/CSS (front-end)
+- Reddit JSON + HTML content
+
+---
+
+## Contributors
+
+- **Aaryan Kumar**  
+  Search/display feature development, PyLucene integration, Flask front end, report writing, team coordination
+
+- **Cruz Lopez**  
+  Flask front-end design (HTML/CSS), search bar and results display integration, server testing
+
+- **Franklyn Lu**  
+  UI-backend integration, indexing/debugging for Reddit and HTML, report organization and technical writing
+
+- **Ivan Li**  
+  Implemented fuzzy boosting ranking, HTML support for ranking method toggle, back-end logic updates
+
+- **Kemuel Garcia Perez**  
+  Reddit data crawling, server compatibility setup, foundational indexing architecture, ranking algorithm integration
+
+---
+
+
