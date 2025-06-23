@@ -1,0 +1,56 @@
+h1{  
+    color:  #ff4500;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Search-Bar-Container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bar input[type="text"]{
+    width:1000px;
+    height: 35px;
+    font-size:14px;
+    padding: 5px 10px; 
+    margin-top: 44px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.bar input[type="submit"] {
+    height: 35px;
+    padding: 0 25px;
+    margin: 15px;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+    padding: 12px;
+}
+
+.results{
+    padding-left: 15px;
+    color: blue
+}
+
+.top{
+    padding-left: 15px;
+}
+
+.underline {
+	text-decoration: underline;
+}

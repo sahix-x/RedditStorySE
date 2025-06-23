@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='redditStyle.css') }}">
+</head>
+
+
+
+<body>
+
+    <h1>Reddit Search Engine</h1>
+
+    <main>
+        <div class="Search-Bar-Container">
+            <img id="reddit-logo" width="15%" src="{{ url_for('static', filename='Reddit-Logo.png') }}" class="logo"/>
+            <form action="/output" method = "POST" class="bar">
+                Query: <input type = "text" name = "query" class="search-word"/>
+                <label for="method">Ranking Method:</label>
+                <select name="method" id="method">
+                    <option value="bm25">BM25 (default) </option>
+                    <option value="fuzzy">Fuzzy Boosting</option>
+                </select>
+                <input type = "submit" value = "Search" />
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

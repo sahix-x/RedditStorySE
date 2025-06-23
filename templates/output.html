@@ -1,0 +1,27 @@
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='redditStyle.css') }}">
+</head>
+<h1>Reddit Search Engine</h1>  
+
+<main>
+<div class="Search-Bar-Container">
+<img id="reddit-logo" width="15%" src="{{url_for('static', filename='Reddit-Logo.png') }}" class="logo"/>
+<form action="/output" method = "POST" class="bar">
+    Query: <input type = "text" name = "query" class="search-word"/>
+    <input type = "submit" value = "Search" />
+</form>
+</div>
+</main>
+<h2 class="top"><u>Top Results</u></h2>
+<div class="results">
+    
+    {% for item in lucene_output %}
+    <h3> Score: {{item['score']}}</h3>
+    <h2 class="underline"> {{item['title']}}</h2>
+    <h3> {{item['text']}}</h3>
+    {% endfor %}
+</div>
+
+<form action="/input" method = "POST">
+    <p><input type = "submit" value = "Search Again" /></p>
+    </form>
