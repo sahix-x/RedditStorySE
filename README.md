@@ -15,6 +15,7 @@ This project uses Python, Flask, and PyLucene to support efficient indexing and 
 - Flask
 - HTML/CSS (front-end)
 - Reddit JSON + HTML content
+- +others
 
 ---
 
